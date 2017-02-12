@@ -1,0 +1,22 @@
+{
+    "name": "pierresilva/laravel-repository",
+    "description": "Reusable Laravel repository interface.",
+    "keywords": ["laravel", "eloquent", "repository"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre Silva",
+            "email": "pierre.silva@lab3studio.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.3.*",
+        "illuminate/config": "5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pierresilva\\Repository\\": "src/"
+        }
+    }
+}
